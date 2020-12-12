@@ -118,7 +118,7 @@ public class DataMahasiswa {
             System.out.println("Nama : " + name.get(i));
             System.out.println("NIM : " + nim.get(i));
             System.out.println("Tanggal Lahir : " + lahir.get(i));
-            String gen = gender.get(i) == 0 ? "Laki":"perm";
+            String gen = gender.get(i) == 0 ? "Laki-laki" : "Perempuan";
             System.out.println("Jenis Kelamin : " + gen);
             System.out.println("****************");
         }
